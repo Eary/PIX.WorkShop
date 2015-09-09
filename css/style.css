@@ -36,7 +36,7 @@ header nav li.nav+.nav:after{height:30px;height:20px \9;top:5px;top:12px \9;widt
 header nav li.search{width:450px;position:relative;text-align: center;}
 header nav li.search input{padding:5px 35px 5px 10px;width:220px;outline:none;border:2px solid #FFA500;}
 header nav li.search label{font-size:14px;position:absolute;right:125px;right:135px \9;top:5px;width:50px;}
-header nav li.search label .list{z-index:555;width:50px;text-align: left;display:none;border:1px solid #ccc;box-shadow:2px 2px 5px #ccc ;
+header nav li.search label .list{position:absolute;left:-5px;z-index:555;width:50px;text-align: left;display:none;border:1px solid #ccc;box-shadow:2px 2px 5px #ccc ;
     -webkit-transition: all .25s ease-in-out;
    -moz-transition: all .25s ease-in-out;
     -ms-transition: all .25s ease-in-out;
