@@ -13,6 +13,8 @@ ol,ul,li{list-style: none;}
 .clearfix:after{clear:both;}
 .description{font-size:12px;color:#6F6F6F;}
 .red{background:#C74242 !important;}
+.blank{background:#313131 !important;}
+
 
 header{min-width:1280px;height:40px;box-shadow:0px 0px 5px #2c2c2c;margin-top:15px;background:#2A2A2A;}
 header nav{max-width: 1280px;}
