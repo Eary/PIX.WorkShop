@@ -1,0 +1,76 @@
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+
+*{padding:0;margin:0 auto;font-family:"Arial","Microsoft yahei", "Hiragino Sans GB", "冬青黑体简体中文 w3", "Microsoft Yahei", STXihei, "华文细黑", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;border:none;-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;}
+*:after,*:before{content:'';display:inline-block;position:absolute;}
+a{text-decoration: none;}
+body{background:#EEEEEE;}
+ol,ul,li{list-style: none;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{clear:both;}
+
+header{min-width:1280px;height:40px;box-shadow:0px 0px 5px #2c2c2c;margin-top:15px;background:#2A2A2A;}
+header nav{max-width: 1280px;}
+header nav li{display:inline-block;}
+header nav li.logo{width:270px;position:relative;}
+header nav li.logo .special{position:absolute;}
+header nav li.logo .img{z-index:1;width:50px;height:50px;top:-32px;left:0;background:#A1A1A1;border:1px solid #FFF;}
+header nav li.logo .h{font-weight:bold;z-index:2;font-size:12px;left:9px;left:5px \9;font-family:华文中宋;}
+header nav li.logo .t{top:-10px;}
+header nav li.logo .b{top:2px;}
+header nav li.logo .b em{font-style:normal;color:#fff;font-family:华文中宋;}
+header nav li.logo .head{z-index: 2;top:-18px;left:60px;font-size:12px;font-weight:bold;color:#fff;}
+header nav li.nav{height:40px;padding:0px 15px;position:relative;}
+header nav li.nav a{display:block;color:#FFA800;line-height:40px;}
+header nav li.nav a:hover{color:#D70B0B;}
+header nav li.nav+.nav:after{height:30px;height:20px \9;top:5px;top:12px \9;width:1px;left:0;
+    background:#fff;
+    background:-webkit-linear-gradient(#2A2A2A,#fff,#2A2A2A);
+    background:-moz-linear-gradient(#2A2A2A,#fff,#2A2A2A);
+    background:-o-linear-gradient(#2A2A2A,#fff,#2A2A2A);
+    background:linear-gradient(#2A2A2A,#fff,#2A2A2A);
+}
+header nav li.search{width:450px;position:relative;text-align: center;}
+header nav li.search input{padding:5px 35px 5px 10px;width:220px;outline:none;border:2px solid #FFA500;}
+header nav li.search label{font-size:14px;position:absolute;right:125px;right:135px \9;top:5px;width:50px;}
+header nav li.search label .list{z-index:555;width:50px;text-align: left;display:none;border:1px solid #ccc;box-shadow:2px 2px 5px #ccc ;
+    -webkit-transition: all .25s ease-in-out;
+   -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+     -o-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;}
+header nav li.search label .list li{z-index:555;display:block;background:#fff;cursor:pointer;line-height:20px;padding:10px;}
+header nav li.search label .list li:hover{background:#F7EDED;}
+header nav li.search label .list li+li{border-top:1px solid #ccc;}
+header nav li.search label:hover .list{display:inline-block;}
+header nav li.photo{width:50px;float:right;margin-top:2px;}
+header nav li.photo a{overflow:hidden;background:#ccc;display:inline-block;border-radius:50%;width:35px;height:35px;vertical-align: middle;border:1px solid #fff;}
+header nav li.photo a img{width:35px;height:35px;}
+
+.container{width:960px;margin-top:75px;border:1px solid #D6D6D6;}
+.container section{width:100%;position:relative;}
+.container section:before{content:'1';top:-50px;left:-65px;color:#cbcbcb;font-size:85px;}
+.container section:after{left:-25px;top:-20px;width:0;height:0;border-top:30px #eee solid;border-bottom:30px solid transparent;border-right:30px solid transparent;border-left:30px solid #eee;}
+.container section .slash{width:1px;width:0 \9; height:50px;display:inline-block;position:absolute;left:5px;height:60px;top:-20px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background:#000;
+    background:-webkit-linear-gradient(#eee,#000,#eee);
+    background:-moz-linear-gradient(#eee,#000,#eee);
+    background:-o-linear-gradient(#eee,#000,#eee);
+    background:linear-gradient(#eee,#000,#eee);
+    -webkit-box-shadow: 1px 0 5px #ccc;
+    box-shadow: 1px 0 5px #ccc;
+}
+.container section nav{height:30px;font-size:12px;background:#008BD3;color:#fff;}
+.container section nav .title{position:relative;display:inline-block;line-height:30px;padding:0px 25px;z-index:2;}
+.container section nav ul{position:absolute;right:40px;top:0;}
+.container section nav ul li{cursor:pointer;display:inline-block;line-height:30px;padding:0 15px;}
+.container section .wrap{height:285px;z-index: -1;}
+.container section .wrap .banner{height:100%;width:500px;background:#535353;}
+.container section .wrap .tab-contents{height:100%;width:458px;background:#fff;box-shadow:0 0 0 #000, 0 3px 5px #ccc inset,0 0 0 #000,0 0 0 #000;}
